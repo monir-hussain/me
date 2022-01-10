@@ -1,0 +1,284 @@
+*{
+  font-family: 'Poppins';
+}
+html,body{
+  scroll-behavior: smooth;
+}
+/* Top bar Start */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  padding-top: 20px;
+}
+
+.top-social{
+   text-align: right;  
+   list-style: none;  
+   text-decoration: none;  
+}
+.top-social a{
+  color:#fff;
+}
+.top-bar{
+  height:40px;
+  width:100%;
+  background:#621ee2b6;
+}
+.top-bar .row{
+ font-size:13px;
+ color:#fff;
+}
+.top-menu{
+  margin-top:10px;
+}
+/* Top bar End */
+/* Navbar Start */
+#myHeader{
+  width:100%;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size:13px;
+  font-weight: bold;
+  color:#000;
+}
+.carousel-caption h1{
+  font-weight: 500;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+.carousel-caption{
+  text-align: left;
+  width:40%;
+  bottom:200px;
+  color:#4b3941;
+}
+.btn1{
+background:#0e7ad3;
+color:white;
+padding:15px;
+}
+.btn2{
+  background:#4b3941;
+  color:white;
+  padding:15px;
+}
+.carousel-caption .span1{
+color:#0e7ad3;
+}
+.carousel-caption .span2{
+  font-weight: bold;
+}
+/* Navbar End */
+/* About Us Start */
+#about{
+  width:80%;
+  margin: auto;
+}
+.about-img{
+  width:100%;
+}
+#about h1{
+  font-size:45px;
+  letter-spacing: 2px;
+}
+#about p{
+  margin-top:20px;
+  text-align: justify;
+}
+#about .row{
+  margin-top: 112px;
+  margin-bottom: 112px;
+}
+.title{
+  font-size:45px;
+  letter-spacing: 2px;
+  color:#0e7ad3;
+}
+#about i{
+  font-size:25px;
+  letter-spacing: 3px;
+  font-family: 'Bilbo Swash Caps';
+}
+#about .about-para{
+  color:#4b3941;
+  font-weight: bold;
+  font-size:16px;
+}
+/* About Us End */
+/* Why Spa Start */
+#why_spa{
+  background:url('images/bg-1.png');
+  background-repeat:no-repeat;
+  background-size: 100% 800px;
+  padding-bottom:91px;
+}
+.spa2{
+  width:93%;
+}
+.separator{
+  padding:30px;
+}
+.lines{
+  width:264px;
+  height: 30px;
+  position:relative;
+  margin:auto;
+}
+.lines::after, .lines::before{
+content:'';
+position:absolute;
+margin:auto;
+height:2px;
+background:#0e7ad3;
+width:45%;
+top:45%;
+}
+.lines::after{
+  left:-35px;
+}
+.lines::before{
+  right:-35px;
+}
+.spa_img{
+  width:353px;
+  border-radius: 100%;
+}
+.spa-right{
+  text-align:right;
+  margin-bottom:50px;
+}
+.spa-right img{
+  width:70px;
+}
+.spa-left{
+  text-align:left;
+  margin-bottom:50px;
+}
+.spa-left img{
+  width:70px;
+}
+.sp-2{
+padding-right:55px;
+}
+.sp-3{
+  padding-left:55px;
+}
+/* Why Spa End */
+/* Our Services Start */
+.service-img{
+  width:80px;
+  border-radius: 25px;
+}
+#service h4{
+  color:#0e7ad3;
+}
+.service-shadow:hover{
+ box-shadow: 5px 10px 15px #888888;
+}
+.service_list{
+  width:84%;
+}
+/* Our Services End */
+/* Our Expert Start */
+#expert a i{
+ list-style: none;
+ text-decoration: none;
+ color:#3F3E3E;;
+ background:white;
+ border:0.5px solid #918c8c;
+ width:20px;
+}
+.expert-section img{
+  border:2px solid #0e7ad3;
+  width:93%;
+}
+.expert_row{
+width:90%;
+margin:auto;
+}
+/* Our Expert End */
+/* Contact Us Start */
+.contact_row{
+  width:88%;
+  margin:auto;
+}
+#contact{
+  margin-top:128px;
+  margin-bottom:100px;
+}
+.contact-right-image{
+  font-size:67px;
+  color: white;
+}
+.contact-right-content{
+  color:white;
+  font-size:20px;
+}
+.contact-right-up{
+  padding: 100px 17px 0px 117px;
+}
+.contact-right-full{
+  padding: 0px 17px 0px 117px;
+}
+#contact .contact-right{
+  background-image:linear-gradient(rgba(66, 215, 226, 0.9),rgba(250, 75, 154,0.9)),url('images/contactmap.png');
+  background-position:center;
+  background-size:cover;
+  position:relative;
+}
+.contact-right-bottom{
+  color:white;
+  font-size:20px;
+}
+.contact-bottom-right{
+  padding: 0px 4px 0px 96px;
+}
+.form-left{
+  padding-top:115px;
+  background:#F5F6F6;
+}
+.form-left button{
+  background:#0e7ad3;
+  border:1px solid #0e7ad3;
+  color:white;
+  padding:18px 40px 18px 40px;
+  font-size:18px;
+  font-weight:bold;
+}
+.form-left textarea{
+  width: 100%;
+  height: 112px;
+  border: 1px solid #CED4DA;
+}
+/* Contact Us End */
+/* Footer Start */
+.footer_row{
+  width:90%;
+  margin:auto;
+}
+#footer{
+  margin-top:-44px;
+}
+#footer .container-fluid{
+  background:#000;
+  color:#fff;
+}
+.col-lg-3 ul li a{
+  list-style: none;
+  text-decoration: none;
+  color:#fff;
+  margin-left: -30px;;
+}
+.col-lg-3 ul li{
+  list-style: none;
+}
+#footer h5{
+  color:#0e7ad3;
+}
+#footer button{
+  background:#0e7ad3;
+  color:white;
+}
+/* Footer End */
